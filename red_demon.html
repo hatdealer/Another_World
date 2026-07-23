@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>적악마 지역</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/red_demon.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>적악마 지역</h1>
+        <p>적악마가 생활하는 지역의 기록</p>
+    </header>
+
+    <nav>
+        <a href="index.html">처음으로</a>
+        <span>|</span>
+        <a href="demon.html">악마 기록</a>
+    </nav>
+
+    <main>
+
+        <section class="century-selector">
+
+            <h2>시대 기록 선택</h2>
+
+            <p class="century-guide">
+                슬라이더를 움직여 열람할 시대를 선택하십시오.
+            </p>
+
+            <div class="century-slider-area">
+
+                <div class="century-labels">
+                    <span>&lt;추후 공지&gt;</span>
+                    <span>20세기</span>
+                </div>
+
+                <input
+                    type="range"
+                    id="centurySlider"
+                    min="0"
+                    max="1"
+                    step="1"
+                    value="1"
+                >
+
+                <p id="selectedCentury">20세기 기록</p>
+
+            </div>
+
+        </section>
+
+
+        <section id="futureRecords" class="century-content hidden">
+
+            <h2>&lt;추후 공지&gt;</h2>
+
+            <p>
+                해당 시대의 기록은 아직 공개되지 않았습니다.
+            </p>
+
+        </section>
+
+
+        <section id="twentiethCenturyRecords" class="century-content">
+
+            <h2>20세기 기록</h2>
+
+            <section class="record-card">
+
+                <h3>
+                    <a href="The_Hellspital.html">The Hellspital</a>
+                </h3>
+
+                <p>
+                    적악마 지역에 위치한 병원의 기록입니다.
+                </p>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <footer>
+        Another_world
+    </footer>
+
+</body>
+
+</html>

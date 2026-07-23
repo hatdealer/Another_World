@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Hellspital | Character Archive</title>
+
+    <meta
+        name="description"
+        content="적악마 지역의 병원 The Hellspital과 의료진 기록을 열람하는 공식 설정 페이지입니다."
+    >
+
+    <link rel="stylesheet" href="css/The_Hellspital.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="helldpital-page">
+    <a class="skip-link" href="#main-content">본문으로 이동</a>
+
+    <header class="site-header" id="siteHeader">
+        <div class="site-header__inner">
+            <a class="site-brand" href="red_demon.html" aria-label="적악마 지역으로 돌아가기">
+                <span class="site-brand__mark" aria-hidden="true">✦</span>
+
+                <span class="site-brand__text">
+                    <strong>The Hellspital</strong>
+                    <small>Red Demon Medical Archive</small>
+                </span>
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                type="button"
+                aria-label="메뉴 열기"
+                aria-controls="siteNavigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="site-nav" id="siteNavigation" aria-label="페이지 내 이동">
+                <a href="#about">병원 기록</a>
+                <a href="#characters">의료진</a>
+                <a href="#restricted">제한 기록</a>
+                <a href="red_demon.html">적악마 지역</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="top" aria-labelledby="heroTitle">
+            <div class="hero__background" aria-hidden="true">
+                <div class="hero__grid"></div>
+                <div class="hero__halo hero__halo--one"></div>
+                <div class="hero__halo hero__halo--two"></div>
+                <div class="hero__cross"></div>
+            </div>
+
+            <div class="hero__content reveal">
+                <p class="eyebrow">20th Century · Red Demon District</p>
+
+                <h1 id="heroTitle">
+                    <span>The</span>
+                    Hellspital
+                </h1>
+
+                <p class="hero__motto">더 헬스피탈.</p>
+
+                <p class="hero__summary">
+                    적악마 지역의 환자와 기록을 관리하는 병원.
+                    이곳의 의료진은 서로 다른 역할을 맡지만,
+                    하나의 조직 아래에서 같은 환자를 다룬다.
+                </p>
+
+                <div class="hero__actions">
+                    <a class="button button--primary" href="#characters">
+                        의료진 기록 열람
+                    </a>
+
+                    <a class="button button--ghost" href="#about">
+                        병원 개요
+                    </a>
+                </div>
+            </div>
+
+            <a class="scroll-indicator" href="#about" aria-label="병원 기록으로 이동">
+                <span>Scroll</span>
+                <i aria-hidden="true"></i>
+            </a>
+        </section>
+
+        <section class="about section" id="about" aria-labelledby="aboutTitle">
+            <div class="section__inner section__inner--narrow">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Archive 01</p>
+                    <h2 id="aboutTitle">Hospital Record</h2>
+                    <p>병원 기록</p>
+                </div>
+
+                <div class="about-grid">
+                    <article class="archive-panel reveal">
+                        <span class="archive-panel__number">01</span>
+
+                        <div>
+                            <h3>The Hellspital</h3>
+                            <p>
+                                20세기 적악마 지역에 존재하는 병원이다.
+                                현재는 정상적인 의료 체계에 따라 환자를 치료하며,
+                                진료와 연구, 수술, 행정 업무가 분리되어 운영된다.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="archive-panel reveal">
+                        <span class="archive-panel__number">02</span>
+
+                        <div>
+                            <h3>설정중</h3>
+                            <p>
+                                추후 공개
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="archive-panel reveal">
+                        <span class="archive-panel__number">03</span>
+
+                        <div>
+                            <h3>설정중</h3>
+                            <p>
+                                추후 공개
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="character-archive section" id="characters" aria-labelledby="charactersTitle">
+            <div class="section__inner">
+                <div class="section-heading reveal">
+                    <p class="eyebrow">Archive 02</p>
+                    <h2 id="charactersTitle">Character Archive</h2>
+                    <p>의료진 기록</p>
+                </div>
+
+                <div class="character-list">
+                    <article class="character character--aider reveal" id="aider">
+                        <div class="character__visual">
+                            <div class="character__index"></div>
+
+                            <div class="character__image-frame">
+                                <img src="images/characters/aider/full.png"
+                                    alt="에이더 전신 설정화"
+                                    loading="lazy"
+                                >
+
+                                <div class="image-placeholder" aria-hidden="true">
+                                   <span>AIDER</span>
+                                   <small>images/characters/aider-full.png</small>
+                                </div>
+                            </div>
+
+                            <div class="character__gallery">
+                                <figure>
+                                    <img
+                                        src="images/characters/aider-sd.png"
+                                        alt="에이더 SD 이미지"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>SD</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img
+                                        src="images/characters/aider-side.png"
+                                        alt="에이더 측면 설정화"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>Side</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="character__information">
+                            <header class="character__header">
+                                <p class="character__code"></p>
+                                <h3>Aider</h3>
+                                <p class="character__role">수습 간호사 · Trainee Nurse</p>
+                            </header>
+
+                            <div class="character__description">
+                                <p>
+                                    병원에서 기초 응급처치와 치료 보조를 담당하는 수습 간호사.
+                                </p>
+                            </div>
+
+                            <dl class="profile-table">
+                                <div>
+                                    <dt>소속</dt>
+                                    <dd>The Hellspital</dd>
+                                </div>
+                                <div>
+                                    <dt>종족</dt>
+                                    <dd>적악마 - 거미</dd>
+                                </div>
+                                <div>
+                                    <dt>직책</dt>
+                                    <dd>수습 간호사</dd>
+                                </div>
+                                <div>
+                                    <dt>신장</dt>
+                                    <dd>130cm</dd>
+                                </div>
+                                <div>
+                                    <dt>담당</dt>
+                                    <dd>기초 응급처치 · 치료 보조</dd>
+                                </div>
+                                <div>
+                                    <dt>성격</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>장점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>단점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>취미</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                            </dl>
+
+                            <blockquote class="character__quote">
+                                <p>“그거 뭐에요? 만져도 돼요?.”</p>
+                            </blockquote>
+                        </div>
+                    </article>
+
+                    <article class="character character--ether reveal" id="ether">
+                        <div class="character__visual">
+                            <div class="character__index"></div>
+
+                            <div class="character__image-frame">
+                                <img src="images/characters/ether/full.png"
+                                    alt="이덜 전신 설정화"
+                                    loading="lazy"
+                                >
+
+                                <div class="image-placeholder" aria-hidden="true">
+                                    <span>ether</span>
+                                    <small>images/characters/ether-full.png</small>
+                                </div>
+                            </div>
+
+                            <div class="character__gallery">
+                                <figure>
+                                    <img
+                                        src="images/characters/ether-sd.png"
+                                        alt="이덜 SD 이미지"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>SD</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img
+                                        src="images/characters/ether-side.png"
+                                        alt="이덜 측면 설정화"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>Side</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="character__information">
+                            <header class="character__header">
+                                <p class="character__code"></p>
+                                <h3>ether</h3>
+                                <p class="character__role">의약 연구원 · Medical Researcher</p>
+                            </header>
+
+                            <div class="character__description">
+                                <p>
+                                    약물과 의료 자료를 연구하는 병원의 의약 연구원.
+                                    치료에 필요한 약품과 연구 기록을 관리한다.
+                                </p>
+                            </div>
+
+                            <dl class="profile-table">
+                                <div>
+                                    <dt>소속</dt>
+                                    <dd>The Hellspital</dd>
+                                </div>
+                                <div>
+                                    <dt>종족</dt>
+                                    <dd>적악마 - 뱀</dd>
+                                </div>
+                                <div>
+                                    <dt>직책</dt>
+                                    <dd>의약 연구원</dd>
+                                </div>
+                                <div>
+                                    <dt>신장</dt>
+                                    <dd>194cm</dd>
+                                </div>
+                                <div>
+                                    <dt>담당</dt>
+                                    <dd>의약 연구 · 약품 기록 관리</dd>
+                                </div>
+                                <div>
+                                    <dt>성격</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>장점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>단점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>취미</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                            </dl>
+
+                            <blockquote class="character__quote">
+                                <p>“이번에 성공만 하면...”</p>
+                            </blockquote>
+                        </div>
+                    </article>
+
+                    <article class="character character--mender reveal" id="mender">
+                        <div class="character__visual">
+                            <div class="character__index"> </div>
+
+                            <div class="character__image-frame">
+                                <img src="images/characters/mender/full.png"
+                                    alt="멘더 전신 설정화"
+                                    loading="lazy"
+                                >
+
+                                <div class="image-placeholder" aria-hidden="true">
+                                    <span>MENDER</span>
+                                    <small>images/characters/mender-full.png</small>
+                                </div>
+                            </div>
+
+                            <div class="character__gallery">
+                                <figure>
+                                    <img
+                                        src="images/characters/mender-sd.png"
+                                        alt="멘더 SD 이미지"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>SD</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img
+                                        src="images/characters/mender-head.png"
+                                        alt="멘더 TV 머리 상세 이미지"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>Head Detail</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="character__information">
+                            <header class="character__header">
+                                <p class="character__code">3</p>
+                                <h3>Mender</h3>
+                                <p class="character__role">외과의 · Surgeon</p>
+                            </header>
+
+                            <div class="character__description">
+                                <p>
+                                    병원내 가장 솜시 좋은 외과의.
+                                    머리속엔 슬라임 같은 점성이 높은 검은 액체가 살아 움직인다.
+                                    감정의 개입을 줄이고 모든 판단을 논리로 검증하려 한다.
+                                </p>
+                            </div>
+
+                            <dl class="profile-table">
+                                <div>
+                                    <dt>소속</dt>
+                                    <dd>The Hellspital</dd>
+                                </div>
+                                <div>
+                                    <dt>종족</dt>
+                                    <dd>적악마 - 거미</dd>
+                                </div>
+                                <div>
+                                    <dt>직책</dt>
+                                    <dd>외과의</dd>
+                                </div>
+                                <div>
+                                    <dt>신장</dt>
+                                    <dd>210cm</dd>
+                                </div>
+                                <div>
+                                    <dt>담당</dt>
+                                    <dd>외과의</dd>
+                                </div>
+                                <div>
+                                    <dt>장점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>단점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>취미</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                            </dl>
+
+                            <blockquote class="character__quote">
+                                <p>“그것 참.. 흥미롭군요.”</p>
+                            </blockquote>
+                        </div>
+                    </article>
+
+                    <article class="character character--seldo reveal" id="seldo">
+                        <div class="character__visual">
+                            <div class="character__index"></div>
+
+                            <div class="character__image-frame">
+                                <img src="images/characters/saldo/full.png"
+                                    alt="셀더 전신 설정화"
+                                    loading="lazy"
+                                >
+
+                                <div class="image-placeholder" aria-hidden="true">
+                                    <span>seldo</span>
+                                    <small>images/characters/seldo-full.png</small>
+                                </div>
+                            </div>
+
+                            <div class="character__gallery">
+                                <figure>
+                                    <img
+                                        src="images/characters/seldo-sd.png"
+                                        alt="셀더 SD 이미지"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>SD</figcaption>
+                                </figure>
+
+                                <figure>
+                                    <img
+                                        src="images/characters/seldo-side.png"
+                                        alt="셀더 측면 설정화"
+                                        loading="lazy"
+                                    >
+                                    <figcaption>Side</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+
+                        <div class="character__information">
+                            <header class="character__header">
+                                <p class="character__code"> </p>
+                                <h3>seldo</h3>
+                                <p class="character__role">부원장 · Vice Director</p>
+                            </header>
+
+                            <div class="character__description">
+                                <p>
+                                    병원의 재정과 자원 배분을 관리하는 부원장.
+                                </p>
+                            </div>
+
+                            <dl class="profile-table">
+                                <div>
+                                    <dt>소속</dt>
+                                    <dd>The Hellspital</dd>
+                                </div>
+                                <div>
+                                    <dt>종족</dt>
+                                    <dd>적악마 - 와이번</dd>
+                                </div>
+                                <div>
+                                    <dt>직책</dt>
+                                    <dd>부원장</dd>
+                                </div>
+                                <div>
+                                    <dt>신장</dt>
+                                    <dd>171cm</dd>
+                                </div>
+                                <div>
+                                    <dt>담당</dt>
+                                    <dd>병원 재정 · 자원 관리</dd>
+                                </div>
+                                <div>
+                                    <dt>성격</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>장점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>단점</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                                <div>
+                                    <dt>취미</dt>
+                                    <dd>추후 입력</dd>
+                                </div>
+                            </dl>
+
+                            <blockquote class="character__quote">
+                                <p>“구두 보고는 받지 않아. 서면으로 제출해.”</p>
+                            </blockquote>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="restricted section" id="restricted" aria-labelledby="restrictedTitle">
+            <div class="section__inner section__inner--narrow">
+                <div class="restricted-record reveal">
+                    <p class="eyebrow">Archive 03</p>
+
+                    <div class="restricted-record__symbol" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <h2 id="restrictedTitle">Restricted Record</h2>
+                    <p class="restricted-record__status">ACCESS DENIED</p>
+
+                    <p class="restricted-record__description">
+                        현재 계정에는 이 기록을 열람할 권한이 없습니다.
+                    </p>
+
+                    <div class="restricted-record__bars" aria-hidden="true">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+
+                    <button class="button button--locked" id="restrictedButton" type="button">
+                        권한 확인
+                    </button>
+
+                    <p
+                        class="restricted-record__message"
+                        id="restrictedMessage"
+                        role="status"
+                        aria-live="polite"
+                    ></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <div>
+                <strong>The Hellspital</strong>
+                <p>Official Character Archive</p>
+            </div>
+
+            <a href="#top">위로 이동</a>
+        </div>
+    </footer>
+</body>
+</html>

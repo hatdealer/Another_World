@@ -1,0 +1,159 @@
+/* =======================================================
+   Another_world 전체 페이지 공통 스타일
+======================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #1b1b1b;
+    color: #e5e5e5;
+    font-family: "Malgun Gothic", "맑은 고딕", sans-serif;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 상단 제목 */
+
+header {
+    padding: 50px 20px 30px;
+    text-align: center;
+    border-bottom: 1px solid #505050;
+    background-color: #242424;
+}
+
+header h1 {
+    margin: 0 0 12px;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin: 0;
+    color: #aaaaaa;
+}
+
+
+/* 상단 이동 메뉴 */
+
+nav {
+    padding: 16px 20px;
+    text-align: center;
+    border-bottom: 1px solid #292929;
+    background-color: #2a2a2a;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #cccccc;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+nav span {
+    color: #555555;
+}
+
+
+/* 본문 */
+
+main {
+    width: min(900px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 50px 0;
+    flex: 1;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+
+/* 첫 화면 선택 버튼 영역 */
+
+.choice {
+    min-height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choice a {
+    text-decoration: none;
+}
+
+.choice button {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+
+    font-size: 25px;
+
+    background-color: #111111;
+    color: #ffffff;
+
+    border: 1px solid #555555;
+    cursor: pointer;
+
+    transition:
+        background-color 0.2s,
+        border-color 0.2s,
+        transform 0.2s;
+}
+
+.choice button:hover {
+    background-color: #333333;
+    border-color: #888888;
+    transform: translateY(-3px);
+}
+
+
+/* 하단 */
+
+footer {
+    padding: 22px;
+    text-align: center;
+    color: #777777;
+
+    border-top: 1px solid #292929;
+    background-color: #0d0d0d;
+}
+
+
+/* 작은 화면 대응 */
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    main {
+        width: min(100% - 24px, 900px);
+        padding: 30px 0;
+    }
+
+    .choice {
+        min-height: 300px;
+    }
+
+    .choice button {
+        width: min(250px, calc(100vw - 48px));
+        margin: 12px;
+    }
+}

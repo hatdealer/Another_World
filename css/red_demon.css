@@ -1,0 +1,75 @@
+﻿/* =======================================================
+   적악마 지역 페이지 전용 스타일
+======================================================= */
+
+
+/* 시대 선택 영역 */
+
+.century-selector {
+    margin-bottom: 40px;
+    padding: 25px;
+    border: 1px solid #555555;
+    background-color: #111111;
+}
+
+.century-guide {
+    margin-bottom: 25px;
+    color: #bbbbbb;
+}
+
+.century-slider-area {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.century-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #dddddd;
+}
+
+#centurySlider {
+    width: 100%;
+    cursor: pointer;
+}
+
+#selectedCentury {
+    margin-top: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+/* 시대별 기록 내용 */
+
+.century-content {
+    margin-top: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* 기록 카드 */
+
+.record-card {
+    padding: 20px;
+    border: 1px solid #444444;
+    background-color: #0d0d0d;
+}
+
+.record-card h3 {
+    margin-top: 0;
+}
+
+.record-card a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.record-card a:hover {
+    text-decoration: underline;
+}
