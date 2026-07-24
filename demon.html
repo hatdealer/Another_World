@@ -3,16 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>악마 기록</title>
+    <title>적악마 지역</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/demon.css">
 </head>
 
 <body>
 
     <header>
         <h1>악마 기록</h1>
-        <p>악마 세계의 지역 기록</p>
+        <p>악마 세계의 기록</p>
     </header>
 
     <nav>
@@ -21,50 +22,64 @@
 
     <main>
 
-        <h2>지역 기록</h2>
+        <section class="century-selector">
 
-        <p>
-            열람할 악마 지역을 선택하십시오.
-        </p>
+            <h2>시대 기록 선택</h2>
 
-        <section>
-            <h3>
-                <a href="red_demon.html">적악마 지역</a>
-            </h3>
-
-            <p>
-                적악마가 생활하는 지역의 기록입니다.
+            <p class="century-guide">
+                슬라이더를 움직여 열람할 시대를 선택하십시오.
             </p>
+
+            <div class="century-slider-area">
+
+                <div class="century-labels">
+                    <span>&lt;추후 공지&gt;</span>
+                    <span>20세기</span>
+                </div>
+
+                <input
+                    type="range"
+                    id="centurySlider"
+                    min="0"
+                    max="1"
+                    step="1"
+                    value="1"
+                >
+
+                <p id="selectedCentury">20세기 기록</p>
+
+            </div>
+
         </section>
 
-        <section>
-            <h3>
-                <a href="blue_demon.html">청악마 지역</a>
-            </h3>
+
+        <section id="futureRecords" class="century-content hidden">
+
+            <h2>&lt;추후 공지&gt;</h2>
 
             <p>
-                청악마가 생활하는 지역의 기록입니다.
+                해당 시대의 기록은 아직 공개되지 않았습니다.
             </p>
+
         </section>
 
-        <section>
-            <h3>
-                <a href="green_demon.html">녹악마 지역</a>
-            </h3>
 
-            <p>
-                녹악마가 생활하는 지역의 기록입니다.
-            </p>
-        </section>
+        <section id="twentiethCenturyRecords" class="century-content">
 
-        <section>
-            <h3>
-                <a href="yellow_demon.html">황악마 지역</a>
-            </h3>
+            <h2>20세기 기록</h2>
 
-            <p>
-                황악마가 생활하는 지역의 기록입니다.
-            </p>
+            <section class="record-card">
+
+                <h3>
+                    <a href="The_Hellspital.html">The Hellspital</a>
+                </h3>
+
+                <p>
+                    적악마 지역에 위치한 병원의 기록입니다.
+                </p>
+
+            </section>
+
         </section>
 
     </main>
@@ -76,3 +91,5 @@
 </body>
 
 </html>
+
+<!DOCTYPE html>

@@ -661,21 +661,6 @@ opacity: 0.25;
     content: "";
 }
 
-.character::after {
-    position: absolute;
-    right: -110px;
-    bottom: -140px;
-    z-index: -1;
-
-    width: 400px;
-    height: 400px;
-
-    border: 1px solid color-mix(in srgb, var(--character-accent) 20%, transparent);
-    border-radius: 50%;
-
-    content: "";
-}
-
 .character--aider {
     --character-accent: var(--aider-accent);
 }
