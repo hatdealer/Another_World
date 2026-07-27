@@ -146,7 +146,7 @@ button {
     align-items: center;
     justify-content: space-between;
 
-    width: min(calc(100% - 48px), var(--content-width));
+    width: min(calc(100% - 40px), var(--content-width));
     height: 100%;
     margin: 0 auto;
 }
@@ -154,12 +154,12 @@ button {
 .site-brand {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .site-brand__mark{
-    width:56px;
-    height:56px;
+    width:74px;
+    height:74px;
 
     display:flex;
     align-items:center;
@@ -182,14 +182,14 @@ button {
 }
 
 .site-brand__text strong {
-    letter-spacing: 0.08em;
+    letter-spacing: 0.2em;
 }
 
 .site-brand__text small {
     margin-top: 4px;
     color: var(--text-muted);
     font-size: 0.66rem;
-    letter-spacing: 0.13em;
+    letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 
